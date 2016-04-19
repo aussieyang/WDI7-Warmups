@@ -15,7 +15,7 @@ Best of luck!
 
 Yang
 
-> **This is the programmers' jokes list. Feel free to add to it in your forked repo and request me to merge it into this copy.**
+> **This is the programmers' jokes list. Feel free to add to it in your forked repo and request me to merge it into the master copy.**
 
 > - ['hip','hip'] is a "Hip hip array"
 > - Definition of a programmer: 'A person who fixes a problem you didn't know you had, in a way you don't understand.'
