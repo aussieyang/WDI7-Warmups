@@ -6,8 +6,8 @@ Each morning, a warmup will be uploaded to this repository. At the end of the mo
 
 These exercises are useful for two reasons:
 
-1) They will get you in the zone for the onslaught of information that will be coming your way.
-2) They are often used as interview questions.
+1. They will get you in the zone for the onslaught of information that will be coming your way.
+2. They are often used as interview questions.
 
 Please **make sure you star or fork this repository** on your github account so you have access to it.
 
