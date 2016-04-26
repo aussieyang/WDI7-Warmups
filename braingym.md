@@ -27,18 +27,24 @@ Who is in the painting?
 
 :neckbeard:
 
-**"The man talking."**
+```
+The man talking.
+```
 
 ## Question Three
 Name four days of the week that start with the letter "t"?
 
 :hamburger: :cocktail: :beer:
 
-**"Tuesday, Thursday, Today and Tomorrow."**
+```
+Tuesday, Thursday, Today and Tomorrow.
+```
 
 ## Question Four
 A man has to get a fox, a chicken, and a sack of corn across a river. He has a row boat, and it can only carry him and one other thing. If the fox and the chicken are left together, the fox will eat the chicken. If the chicken and the corn are left together, the chicken will eat the corn. How does the man do it?
 
 :chicken: :wolf: :corn:
 
-**"He takes the chicken across the river, comes back and grabs the fox. He takes the fox across but brings back the chicken. Then, he brings the corn over to the otherside with the fox, then goes back for the chicken."**
+```
+He takes the chicken across the river, comes back and grabs the fox. He takes the fox across but brings back the chicken. Then, he brings the corn over to the otherside with the fox, then goes back for the chicken.
+```
