@@ -27,7 +27,7 @@ A man walks into an art gallery and concentrates on one picture in particular. T
 
 Who is in the painting?
 
-_painted by him_
+_himself_
 
 :neckbeard:
 
