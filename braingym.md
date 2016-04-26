@@ -16,7 +16,7 @@ Remember, if you need a hand please ask!
 ## Question One
 A traveller comes to a fork in the road which leads to two villages. In one village the people always tell lies, and in the other village the people always tell the truth. The traveller needs to conduct business in the village where everyone tells the truth. A man from one of the villages is standing in the middle of the fork, but there is no indication of which village he is from. The traveller approaches the man and asks him one question. From the villager's answer, he knows which road to follow. What did the traveller ask?
 
-Point in the direction of one village and
+Where do you live?
 
 :arrow_left: :arrow_right:
 
@@ -27,7 +27,7 @@ A man walks into an art gallery and concentrates on one picture in particular. T
 
 Who is in the painting?
 
-Step brother
+Step brother haha
 
 :neckbeard:
 
