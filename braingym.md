@@ -46,5 +46,7 @@ A man has to get a fox, a chicken, and a sack of corn across a river. He has a r
 :chicken: :wolf: :corn:
 
 ```
-He takes the chicken across the river, comes back and grabs the fox. He takes the fox across but brings back the chicken. Then, he brings the corn over to the otherside with the fox, then goes back for the chicken.
+He takes the chicken across the river, comes back and grabs the fox. 
+He takes the fox across but brings back the chicken. 
+Then, he brings the corn over to the otherside with the fox, then goes back for the chicken.
 ```
