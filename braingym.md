@@ -11,7 +11,7 @@ Open this file in your test editor and answer the question below. Add some Markd
 _Step 3_
 Push it to your github account and make me a pull request.
 
-Remember, if you need a hand please ask!
+_Remember, if you need a hand please ask!_
 
 ## Question One
 A traveller comes to a fork in the road which leads to two villages. In one village the people always tell lies, and in the other village the people always tell the truth. The traveller needs to conduct business in the village where everyone tells the truth. A man from one of the villages is standing in the middle of the fork, but there is no indication of which village he is from. The traveller approaches the man and asks him one question. From the villager's answer, he knows which road to follow. What did the traveller ask?
