@@ -33,11 +33,12 @@ _painted by the son_
 
 ## Question Three
 Name four days of the week that start with the letter "t"?
+
 - list Tuesday
 - list Thursday
 - list Today
 - list Tomorrow
-- 
+
 :hamburger: :cocktail: :beer:
 
 
