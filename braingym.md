@@ -18,7 +18,9 @@ A traveller comes to a fork in the road which leads to two villages. In one vill
 
 :arrow_left: :arrow_right:
 
-**"Do you come from the village to the right?"**
+```
+"Do you come from the village to the right?"
+```
 
 ## Question Two
 A man walks into an art gallery and concentrates on one picture in particular. The museum curator notices this and asks the man why he is so interested in that one painting. The man replies, "Brothers and sisters have I none, but that man's father is my father's son."
