@@ -5,19 +5,19 @@ var message = "FRZDUGV GLH PDQB WLPHV EHIRUH WKHLU GHDWKV, WKH YDOLDQW QHYHU WDV
 console.log(message.charCodeAt(0));
 
 var decode = function (shift) {
-  messageASCII = [];
+  var messageASCII = [];
   for (var i = 0; i < message.length; i++) {
     if (message.charCodeAt(i) >= 65 + shift && message.charCodeAt(i) <= 90) {
-      newCode = message.charCodeAt(i) - shift;
-      newLetter = String.fromCharCode(newCode);
+      var newCode = message.charCodeAt(i) - shift;
+      var newLetter = String.fromCharCode(newCode);
       messageASCII.push(newLetter);
     } else if (message.charCodeAt(i) >=65 && message.charCodeAt(i) < 65 + shift) {
-      newCode = message.charCodeAt(i) + 26 - shift;
-      newLetter = String.fromCharCode(newCode);
+      var newCode = message.charCodeAt(i) + 26 - shift;
+      var newLetter = String.fromCharCode(newCode);
       messageASCII.push(newLetter);
     } else {
-      newCode = message.charCodeAt(i);
-      newLetter = String.fromCharCode(newCode);
+      var newCode = message.charCodeAt(i);
+      var newLetter = String.fromCharCode(newCode);
       messageASCII.push(newLetter);
     }
   } console.log(messageASCII);
