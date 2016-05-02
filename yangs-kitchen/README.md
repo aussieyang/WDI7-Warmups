@@ -2,7 +2,7 @@
 
 1. Download the zip file and unzip into your working directory. The file contains already marked-up HTML.
 
-2. Go to: *hidden*
+2. Go to: http://aussieyang.github.io/yangskitchen/
 
 Recreate the styling that you see on the screen as closely as possible.
 
