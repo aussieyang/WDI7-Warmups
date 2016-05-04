@@ -1,0 +1,48 @@
+body {
+  text-align: center;
+  font-family: monospace;
+}
+
+#stopwatch {
+  width: 400px;
+  height: 100px;
+  margin: 0 auto;
+  border: 1px solid black;
+  padding: 12px;
+  letter-spacing: 10px;
+  line-height: 100px;
+  font-size: 75px;
+  text-align: right;
+  margin-bottom: 20px;
+}
+
+#controls {
+  text-align: center;
+}
+
+button {
+  padding: 24px 24px 16px 24px;
+  background: mediumaquamarine;
+  border:none;
+  border-bottom: 2px solid forestgreen;
+  border-radius: 5px;
+  color: white;
+  font-size: 24px;
+  font-family: 'Orbitron', 'Courier New', monospace;
+  font-weight: 700;
+}
+
+#stop {
+  background-color: crimson;
+  border-bottom: 2px solid darkred;
+}
+
+#reset {
+  background-color: moccasin;
+  border-bottom: 2px solid goldenrod;
+}
+
+button:hover, #stop:hover, #reset:hover {
+  cursor: pointer;
+  border-bottom: 2px solid black;
+}
