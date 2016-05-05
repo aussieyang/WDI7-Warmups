@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>The Fellowship of the Ring</title>
+  <link rel="stylesheet" href="./stylesheets/style.css">
+</head>
+<body>
+  <div class="overlay">
+  </div>
+  <audio id="nazgul-screech" src="./media/nazgul_screech.mp3"></audio>
+  <audio id="hobbit-theme" src="./media/hobbit_theme.mp3"></audio>
+  <script charset="utf-8">
+    var nazgulScreech = function () {
+      document.getElementById("nazgul-screech").play();
+    };
+    var playTheme = function () {
+      document.getElementById("hobbit-theme").play();
+    };
+    playTheme();
+  </script>
+  <script src="./scripts/fellowship.js"></script>
+</body>
+</html>

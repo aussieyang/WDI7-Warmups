@@ -1,0 +1,170 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  margin: 0 0 0 0;
+}
+
+
+@font-face {
+  font-family: Bilbo;
+  src: url(../fonts/bilboregular.ttf);
+}
+
+@font-face {
+  font-family: BilboBold;
+  src: url(../fonts/bilbobold.ttf);
+}
+
+body {
+  top: 0;
+  left: 0;
+  background-image:url(../images/middle-earth.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: BilboBold, Copperplate, "Copperplate Gothic Light", fantasy;
+  text-transform: lowercase;
+  color: white;
+  text-shadow: 2px 2px #000000;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 117%;
+  background-color: rgba(0,0,0,0.3); /*dim the background*/
+}
+
+section {
+  font-weight: bold;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+
+article {
+  position: absolute;
+  width: 28%;
+  transition: all, 0.5s, ease;
+}
+
+article li {
+  font-size: 1.6em;
+}
+
+/* The Shire */
+article:nth-child(1) {
+  top: 35%;
+  left: 21%;
+}
+
+/* Rivendell */
+article:nth-child(2) {
+  left: 47%;
+  top: 34%;
+}
+
+/* Mordor */
+article:nth-child(3) {
+  left: 71%;
+  top: 81%;
+  background: url(../images/eye_of_sauron.png) no-repeat;
+  background-position: 0em -0.9em;
+  background-size: 7em;
+  height: 25%;
+}
+
+article:nth-child(3) h1:hover {
+  transition-property: all;
+  transition-duration: 1.5s;
+  transition-timing-function: ease-out;
+  color:black;
+  text-shadow: 2px 2px 1px red;
+}
+
+h1 {
+  font-size: 2.5em;
+  margin: 0 0 0 0;
+}
+
+ul {
+  margin: 0 0 0 0;
+  text-shadow: 1px 1px #000000;
+}
+
+.magic-imbued-jewelry {
+  border-radius: 50%;
+  border: 0.14em solid gold;
+  width: 0.4em;
+  height: 0.4em;
+  display: inline-block;
+  margin: auto;
+}
+
+#mount-doom {
+  height: 100px;
+  width: 100px;
+}
+
+#gollum {
+  background: url(../images/gollum.png) no-repeat;
+  background-size: cover;
+  height: inherit;
+  width: inherit;
+}
+
+
+
+
+
+
+
+/*===========================================================*/
+/* Responsive Layout Keeps Locales Correctly Oriented on Map */
+/*===========================================================*/
+@media (max-width: 1050px) {
+  html, body {
+    font-size: 0.75em;
+  }
+
+  /* The Shire */
+  article:nth-child(1) {
+    top: 30%;
+    left: 25%;
+  }
+
+  /* Rivendell */
+  article:nth-child(2) {
+    left: 47%;
+    top: 27%;
+  }
+
+  /* Mordor */
+  article:nth-child(3) {
+    left: 71%;
+    top: 66%;
+  }
+
+
+@media (max-width: 850px) {
+
+  /* The Shire */
+  article:nth-child(1) {
+    top: 165px;
+    left: 210px;
+  }
+
+  /* Rivendell */
+  article:nth-child(2) {
+    left: 400px;
+    top: 160px;
+  }
+
+  /* Mordor */
+  article:nth-child(3) {
+    left: 600px;
+    top: 385px;
+  }
+
+}
