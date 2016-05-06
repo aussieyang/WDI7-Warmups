@@ -1,0 +1,39 @@
+body {
+  text-align: center;
+}
+
+#board {
+  width: 1000px;
+  height: 1000px;
+  border-style: double;
+  border-color: black;
+  margin: 0 auto;
+}
+
+.row {
+  display: flex;
+  width: 1000px;
+  height: 200px;
+}
+
+.column {
+  width: 200px;
+  height: 200px;
+  border-style:solid;
+  border-color: black;
+  transition: all .2s ease-in-out;
+}
+
+.column:hover {
+  background-color: red;
+  transform: scale(1.25);
+}
+
+img {
+  width: 150px;
+  height: 150px;
+}
+
+#winner {
+  display: none;
+}
