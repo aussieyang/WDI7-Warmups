@@ -1,0 +1,66 @@
+body {
+  font-family: sans-serif;
+  font-size: 16px;
+  line-height: 1.4;
+  color: white;
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+}
+
+h1 {
+  letter-spacing: 15px;
+}
+
+.background-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1000;
+  background: url("../img/jungle.jpg");
+  width: 100%;
+  height: 900px;
+}
+
+.overlay {
+  width:100%;
+  height:100%;
+  background-color: rgba(14, 207, 88, 0.65);
+}
+
+.phone {
+  background-image: url("../img/phone.png");
+  /* FINISH THE CSS */
+}
+
+.phone-screen {
+  /* FINISH THE CSS */
+}
+
+.plume-slider {
+  /* FINISH THE CSS */
+  /* changes */
+}
+
+nav div {
+  display: inline-block;
+  float: left;
+  margin: .625em;
+  padding: .325em;
+  border: 1px solid white;
+}
+
+nav div:hover {
+  cursor: pointer;
+}
+
+#parula {
+  background-color: rgba(255, 33, 119, 0.65);
+}
+
+#macaw {
+  background-color: rgba(14, 207, 88, 0.65);
+}
+
+#tucan {
+  background-color: rgba(33, 172, 255, 0.65);
+}
