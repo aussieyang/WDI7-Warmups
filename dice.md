@@ -26,7 +26,7 @@ die.roll(3)
 1. Write a method called sum you can chain directly after `die.roll(n)`, and will return you the dice and the total, like so:
 
 ```
-die.roll(5).sum
+die.roll(4).sum
 # => [[6,6,5,5], 22]
 ```
 
