@@ -23,4 +23,8 @@ class DanTest < MiniTest::Test
     assert_equal "Whatever.", @dan.chat('blah blah blah')
   end
 
+  def test_checks_for_l33t
+    assert_equal "bR0, t34cH m3 h0w t0 l33t sP34k", @dan.chat('Bro, teach me how to leet speak')
+  end
+
 end
