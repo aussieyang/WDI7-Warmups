@@ -3,29 +3,30 @@
 Write a program to generate a standard dice roll.
 
 ```
-Dice.roll
+die = Dice.new
+die.roll
 # => 6
 ```
 It should give you a different result each time.
 ```
-Dice.roll
+die.roll
 # => 5
-Dice.roll
+die.roll
 # => 2
 ```
 
 When you pass in a number, it rolls the dice that many times, and returns you the array of rolled dice
 ```
-Dice.roll(3)
+die.roll(3)
 # => [2,5,1]
 ```
 
 ## Extension
 
-1. Write a method called sum you can chain directly after `Dice.roll(n)`, and will return you the dice and the total, like so:
+1. Write a method called sum you can chain directly after `die.roll(n)`, and will return you the dice and the total, like so:
 
 ```
-Dice.roll(5).sum
+die.roll(5).sum
 # => [[6,6,5,5], 22]
 ```
 
