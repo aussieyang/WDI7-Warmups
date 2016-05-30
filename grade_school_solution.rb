@@ -13,7 +13,7 @@ class School
   end
 
   def add(student, grade)
-    @database[grade] || = []
+    @database[grade] ||= []
     @database[grade] << name
     #|| is a shorthand for :
     # if @database[grade]          #if array exists
