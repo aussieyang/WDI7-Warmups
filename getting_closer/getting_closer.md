@@ -17,4 +17,4 @@ var myResults = [ {name: "six pack of beer", location: {lat: 37.767182, long: -1
 
 Write a loop that takes some results and a current location, i.e. `lat` and `long` and returns the results in order of proximity to the `currentLocation`.
 
-#Note: you should choose this current location.
+### Note: you should choose this current location.
