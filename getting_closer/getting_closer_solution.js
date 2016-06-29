@@ -6,16 +6,17 @@ var myResults = [ {name: "six pack of beer", location: {lat: 37.767182, long: -1
         {name: "running shoes", location: {lat: 37.7669, long: -122.457}},
         {name: "paint brushes", location: {lat: 37.76800, long: -122.4580}}]
 
-// Pick your location
-// var myLocation = {lat: 37.712, long: -122.569};
-//var myLocation = {lat: 37.75, long: -122.5};
-// var myLocation = {lat: 37.8, long: -122.6};
-// var myLocation = {lat: 37.7, long: -122.4};
- var myLocation = myResults[myResults.length - 1].location
+// Pick your location - uncomment the one you want to test
+    // var myLocation = {lat: 37.712, long: -122.569};
+    // var myLocation = {lat: 37.75, long: -122.5};
+    // var myLocation = {lat: 37.8, long: -122.6};
+    // var myLocation = {lat: 37.7, long: -122.4};
+    var myLocation = myResults[myResults.length - 1].location
 
 //Array with with elements that can be sorted by distance
 var sortable=[];
 
+//Looped through array of objects, calculated distance to myLocation and pushed as an object into a new array
 for (var i = myResults.length - 1; i >= 0; i--) {
   var distance = Math.abs(myLocation.lat - myResults[i].location.lat) +
     Math.abs(myLocation.long-myResults[i].location.long);
@@ -27,6 +28,7 @@ for (var i = myResults.length - 1; i >= 0; i--) {
   sortable.push(placeWithDistance);
 }
 
+//Passed a callback into .sort() to tell it to sort by distance, rather than use the default behaviour
 var sortedLocations = sortable.sort(function(a, b) {
     return a.distance - b.distance;
 });
