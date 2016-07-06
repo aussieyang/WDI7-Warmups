@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>POKER</title>
+</head>
+<body>
+    How many players?
+  <select id="numberPlayers">
+  	<option value="2">2</option>
+  	<option value="3">3</option>
+  	<option value="4">4</option>
+  	<option value="5">5</option>
+  	<option value="6">6</option>
+  	<option value="7">7</option>
+  	<option value="8">8</option>
+  </select>
+  <button id="start" onclick="go()">Start Playing!</button>
+  <div id="output"></div>
+  <script>
+      var dealt, playerHand, cpuHand, flop, river, turn, output;
+
+    function drawCard () {
+    	var x = Math.floor(Math.random() * 52)+1;
+    	while (dealt[x] == true) {
+    		x = Math.floor(Math.random() * 52)+1;
+    	}
+    	dealt[x] = true;
+    	return x;
+    }
+
+    function describeCard (array) {
+    	allSuits = ["Clubs","Diamonds","Hearts","Spades"];
+    	allNumbers = ["King","Ace","2","3","4","5","6","7","8","9","10","Jack","Queen"];
+    	//clubs = 1-13   diamonds = 14-26  hearts = 27-39  spades = 40-52
+    	for (i=0; i<array.length; i++) {
+    		//add a comma if it's not the first array item
+    		if (i>0) output+= ", ";
+    		var suit = Math.floor(array[i] / 13);
+    		var number = array[i] % 13;
+    		output += allNumbers[number] +" of "+ allSuits[suit];
+    	}
+    	output+="<br>";
+      console.log('output '+ output);
+    }
+
+    function go() {
+    	dealt=[];
+    	playerHand=[];
+    	cpuHand=[];
+    	flop=[];
+    	river=[];
+    	turn=[];
+    	//create array of all cards (plus 0) = 53 spots.  None are drawn so set all to false.
+    	for (var i=0;i<53;i++) {
+    		dealt.push(false);
+    	}
+    	output="Your Hand: ";
+    	var players = document.getElementById("numberPlayers").value;
+
+    	playerHand.push(drawCard(),drawCard());
+    	for (i=0;i<players-1;i++) {
+    		cpuHand.push([drawCard(),drawCard()]);
+    	}
+
+    	//burn a card
+    	drawCard();
+
+    	flop.push(drawCard(),drawCard(),drawCard());
+    	river.push(drawCard());
+    	turn.push(drawCard());
+    	describeCard(playerHand);
+
+    	for (var ii=0;ii<players-1;ii++) {
+    		output += "POOTAH "+ (ii+1) +" Hand:  ";
+    		describeCard(cpuHand[ii]);
+    	}
+
+
+    	output += "<br>Flop: ";
+    	describeCard(flop);
+    	output +="Turn: ";
+    	describeCard(turn);
+    	output +="River: ";
+    	describeCard(river);
+    	document.getElementById("output").innerHTML = output;
+    }
+
+
+  </script>
+
+</body>
+</html>
