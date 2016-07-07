@@ -8,19 +8,20 @@ def can_make_word(str)
   ['F','S'], ['L','Y'], ['P','C'], ['Z','M'],]
 
   strArray = str.split('')
+  strArrayClone = str.split('')
 
   strArray.each do |letter|
     blocks.each do |row|
       row.each do |column|
         if letter == column
           blocks.slice!(blocks.index(row))
-          blocks.dup
+          strArray.delete(letter)
         end
       end
     end
   end
 
-  if strArray.length == 19 - blocks.length
+  if strArrayClone.length == 19 - blocks.length
     return true
   else
     return false
