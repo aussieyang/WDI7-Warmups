@@ -1,0 +1,48 @@
+body {
+  background-image: url('ps_neutral.png');
+}
+
+.brush-color {
+  width: 100px;
+  height: 100px;
+  border: 1px solid black;
+  margin: 15px auto;
+}
+
+.square {
+  float: left;
+  width: 20px;
+  height: 20px;
+  background: #E7E5DB;
+  margin: 0px;
+}
+
+h1 {
+  font-family: Helvetica;
+  font-size: 48px;
+  text-align: center;
+}
+
+input[type="text"] {
+  padding: 1em;
+  width: 35%;
+  margin-bottom: 15px;
+  margin-right: 1%;
+  border: 1px solid lightgray;
+}
+
+button {
+  padding: 1em;
+  border: 1px solid gray;
+  color: gray;
+  background-color: white;
+}
+
+button:hover {
+  cursor: pointer;
+  border: 1px solid cornflowerblue;
+}
+
+.controls {
+  text-align: center;
+}
