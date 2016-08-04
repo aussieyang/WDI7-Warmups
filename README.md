@@ -21,3 +21,9 @@ Yang
 > - Definition of a programmer: 'A person who fixes a problem you didn't know you had, in a way you don't understand.'
 > - Start counting. If you didn't start at 0, you're doing it wrong.
 > - A SQL query goes into a bar, walks up to two tables and asks, "Can I join you?"
+
+
+## Licensing
+
+1. All content is licensed under a CC-BY-NC-SA 4.0 license.
+2. All software code is licensed under GNU GPLv3. For commercial use or alternative licensing, please contact legal@ga.co.
